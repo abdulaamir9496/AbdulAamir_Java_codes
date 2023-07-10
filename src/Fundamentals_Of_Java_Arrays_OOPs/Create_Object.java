@@ -1,4 +1,4 @@
-package Naveen_Reddy;
+package Fundamentals_Of_Java_Arrays_OOPs;
 
 public class Create_Object {
     int a = 10;

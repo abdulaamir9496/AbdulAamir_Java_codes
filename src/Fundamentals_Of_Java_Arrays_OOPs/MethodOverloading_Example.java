@@ -1,4 +1,4 @@
-package Naveen_Reddy;
+package Fundamentals_Of_Java_Arrays_OOPs;
 
 class Calc {
     public int add(int n1, int n2) {

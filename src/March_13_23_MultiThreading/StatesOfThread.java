@@ -1,4 +1,4 @@
-package March_12_23_MultiThreading;
+package March_13_23_MultiThreading;
 //States of Thread
 
 class Demo1 implements Runnable

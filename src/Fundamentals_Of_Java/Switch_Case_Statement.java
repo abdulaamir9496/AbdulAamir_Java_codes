@@ -1,4 +1,4 @@
-package Hyder_Abbas;
+package Fundamentals_Of_Java;
 
 public class Switch_Case_Statement {
     public static void main(String[] args) {

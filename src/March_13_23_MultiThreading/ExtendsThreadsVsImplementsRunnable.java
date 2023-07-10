@@ -1,4 +1,4 @@
-package March_12_23_MultiThreading;
+package March_13_23_MultiThreading;
 //Extends Threads Vs Implements Runnable And Limitations of invoking by Run() Explicitly,
 //the Best way to practise is using Runnable interface If we have any requirements we can implement that class also
 //In extends we can't extend more than 1 class in java as (Multiple inheritance is not allowed). So we should use Runnable interface

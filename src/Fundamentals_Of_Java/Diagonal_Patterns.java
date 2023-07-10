@@ -1,10 +1,10 @@
-package Hyder_Abbas;
+package Fundamentals_Of_Java;
 
 public class Diagonal_Patterns {
     public static void main(String[] args) {
 
         //Pattern 1: Left Diagonal
-        /*int n = 10;
+        int n = 10;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 if (i == j || i + j == n - 1 || i == 0 || j == 0 || i == n-1 || j == n-1) {
@@ -14,7 +14,7 @@ public class Diagonal_Patterns {
                 }
             }
             System.out.println();
-        }*/
+        }
 
         //Pattern 2: Right Diagonal
         /*int n = 5;
@@ -150,7 +150,7 @@ public class Diagonal_Patterns {
         }*/
 
         //Pattern 6: Print (SQUARE + Tilted SQUARE + SQUARE & TILTED SQUARE both are filled + inside the square it should be hallowed)
-        int n = 11;
+  /*      int n = 11;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 if(i == 0 || j == 0 || i == n-1 || j == n-1){
@@ -188,6 +188,6 @@ public class Diagonal_Patterns {
             }
 
             System.out.println();
-        }
+        }*/
     }
 }

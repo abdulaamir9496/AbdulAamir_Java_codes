@@ -1,4 +1,4 @@
-package March_12_23_MultiThreading;
+package March_13_23_MultiThreading;
 //Creating Threads by Implementing Runnable Interface
 //Best practise to use implements interface for achieving loose coupling and also have an option of extending a class as well.
 import java.util.Scanner;

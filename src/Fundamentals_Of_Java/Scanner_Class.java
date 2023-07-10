@@ -1,4 +1,4 @@
-package Hyder_Abbas;
+package Fundamentals_Of_Java;
 
 import java.util.Scanner;
 

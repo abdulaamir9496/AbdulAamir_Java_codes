@@ -1,4 +1,4 @@
-package Naveen_Reddy;
+package Fundamentals_Of_Java_Arrays_OOPs;
 
 class Calc1 {
     public void show(byte n) {

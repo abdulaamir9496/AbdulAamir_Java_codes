@@ -1,4 +1,4 @@
-package March_12_23_MultiThreading;
+package March_13_23_MultiThreading;
 //How to create Threads?
 class MyThread extends Thread {      //All Thread properties and behavior have been inherited in MyThread
     public void run() {

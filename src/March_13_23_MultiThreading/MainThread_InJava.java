@@ -1,4 +1,4 @@
-package March_12_23_MultiThreading;
+package March_13_23_MultiThreading;
 //Main Thread in java
 public class MainThread_InJava {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package March_12_23_MultiThreading;
+package March_13_23_MultiThreading;
 //Interrupt Method
 
 class Example implements Runnable {

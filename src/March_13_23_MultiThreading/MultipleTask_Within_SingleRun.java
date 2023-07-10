@@ -1,10 +1,20 @@
-package March_12_23_MultiThreading;
+package March_13_23_MultiThreading;
 import java.util.Scanner;
-//More On Multiple Threads, (Light-Weighted Thread) Executing as per Thread Scheduler which ever is registered in TS
-
-class Calc extends Thread     //Here we can't extend and can't make 2 classes as parent class as it is not allowed (multiple inheritance) in java. Highly recommended to use implements
+//Multiple Task Within SingleRun()
+class MyThreads extends Thread
 {
     public void run()
+    {
+        String tName = Thread.currentThread().getName();
+        if(tName.equals("CALC"))
+        {
+            Calc2();
+        } else
+        {
+            ImportantMessage();
+        }
+    }
+    public void Calc2()
     {
         System.out.println("Calculating task starting");
         Scanner scn = new Scanner(System.in);
@@ -20,10 +30,7 @@ class Calc extends Thread     //Here we can't extend and can't make 2 classes as
         System.out.println("Calculating task ended");
         System.out.println("****************************************************");
     }
-}
-class Message extends Thread
-{
-    public void run()
+    public void ImportantMessage()
     {
         System.out.println("Displaying important message task starting");
         for (int i = 0; i < 4; i++) {
@@ -38,16 +45,16 @@ class Message extends Thread
         System.out.println("****************************************************");
     }
 }
-public class MoreOnMultipleThreads {
+public class MultipleTask_Within_SingleRun {
     public static void main(String[] args) {
 
-        Calc c = new Calc();
-        Message m = new Message();
+        MyThreads mt1 = new MyThreads();
+        MyThreads mt2 = new MyThreads();
 
-        c.start();     //Don't call run method (it will act as single thread). Instead, call start it will register to Thread Scheduler for deciding which Thread to run/execute
-        m.start();     //Don't call run method (it will act as single thread). Instead, call start it will register to Thread Scheduler for deciding which Thread to run/execute
+        mt1.setName("CALC");
+        mt2.setName("PRINT");
 
-        //c.run();     //Single-Threading call for execution line of code
-        //m.run();     //Single-Threading call for execution line of code
+        mt1.start();
+        mt2.start();
     }
 }
