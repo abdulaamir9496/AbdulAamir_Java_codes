@@ -24,7 +24,7 @@ public class FailFastVsFailSafe {
 
         //Fail fast: Fails immediately if found any exception
         Iterator itr = al.iterator();
-        while (itr.hasNext()) {
+        while (itr.hasNext()) {       //as long as
             System.out.println(itr.next());
             //al.add(100);   //Here in 'Fail fast' we are getting 'ConcurrentModificationException'
         }
@@ -39,7 +39,7 @@ public class FailFastVsFailSafe {
 
         System.out.println(cwa);
         Iterator itr1 = cwa.iterator();
-        while (itr1.hasNext()) {
+        while (itr1.hasNext()) {       //as long as
             System.out.println(itr1.next());
             cwa.add(100); //Here we can fetch. But when we try to concurrent the modification by adding an element.
             // It doesn't get added, also we don't get error, and our output gets printed. This is known as 'Fail Safe.'

@@ -44,7 +44,7 @@ public class Iterator_And_ListIterator_Interface {
 
         //Forward Iterator:
         Iterator itr = al.iterator();
-        while (itr.hasNext())
+        while (itr.hasNext())       //as long as
         {
             /*Integer i = (Integer) itr.next();
             System.out.println(i);*/
