@@ -3,7 +3,8 @@ package March_11_23_ExceptionHandling;
 import java.util.Scanner;
 
 //Why we use custom exception & it's benefits, what is the difference b/w throw and throws
-class MyException extends Exception {
+class MyException extends Exception
+{
 
 }
 

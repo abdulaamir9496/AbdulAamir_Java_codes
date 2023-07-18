@@ -2,7 +2,7 @@ package March_27_23_Map_and_Generics;
 
 import java.util.ArrayList;
 
-//Generics in java
+//Generics in java, type-casting, storing, type safety, no type safety, type of data
 public class Generics_InJava {
     public static void main(String[] args) {
         //TypeSafety
@@ -23,7 +23,7 @@ public class Generics_InJava {
         al.add(10);
         System.out.println(al);
 
-        String n1 = (String)al.get(0);     //TypeCasting (Down-graded)
+        String n1 = (String)al.get(0);     //TypeCasting (Down-graded/ Down-casting)
         String n2 = (String)al.get(1);
         String n3 = (String)al.get(2);*/
 

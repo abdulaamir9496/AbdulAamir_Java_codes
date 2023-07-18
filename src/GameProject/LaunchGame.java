@@ -13,7 +13,7 @@ class Guesser {
         Scanner sc = new Scanner(System.in);  //body Taking input
         System.out.println("Guesser! Kindly guess the Number");  //About to guess the number!
         guessNum = sc.nextInt(); //Storing the number after guess in guessNum(brain of guesser)
-        return guessNum;  //Storing in the variable which we already created,returning via return variable.
+        return guessNum;  //Storing in the variable which we already created, returning via return variable.
         // Whenever EMPIRE calls it is returning the stored number from guessNum(Brain)
     }
 }

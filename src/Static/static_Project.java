@@ -34,7 +34,7 @@ class Demo1 {
 public class static_Project {
     public static void main(String[] args) {
 
-        //int a;  //Writing inside a main method block/ can't use outside this block.
+        //int a; //Writing inside a main method block/ can't use outside this block.
         // It won't work outside this block.
 
         Demo d = new Demo();
