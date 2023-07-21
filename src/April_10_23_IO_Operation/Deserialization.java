@@ -28,24 +28,24 @@ public class Deserialization {
         Cricketer1 cric1 = new Cricketer1("Muhammad", 28, 100);
         cric1.disp();
 
-//        FileOutputStream fos = new FileOutputStream("LocalDirectory");
-//        BufferedOutputStream bos = new BufferedOutputStream(fos);
-//        ObjectOutputStream oos = new ObjectOutputStream(bos);
-//
-//        oos.writeObject(cric1);
-//
-//        oos.flush();
-//        oos.close();
+        FileOutputStream fos = new FileOutputStream("LocalDirectory");
+        BufferedOutputStream bos = new BufferedOutputStream(fos);
+        ObjectOutputStream oos = new ObjectOutputStream(bos);
+
+        oos.writeObject(cric1);
+
+        oos.flush();
+        oos.close();
 
         //Using Deserialization
-        FileInputStream fis = new FileInputStream("CreateFile");
+        /*FileInputStream fis = new FileInputStream("CreateFile");
         BufferedInputStream bis = new BufferedInputStream(fis);
         ObjectInputStream ois = new ObjectInputStream(bis);
 
         Cricketer1 cr = (Cricketer1)ois.readObject();   //Down-casting for storing the crushed byte code back into program code from file
         cr.disp();
 
-        ois.close();
+        ois.close();*/
 
     }
 }

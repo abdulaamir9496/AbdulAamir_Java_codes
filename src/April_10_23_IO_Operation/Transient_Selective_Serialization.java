@@ -3,7 +3,8 @@ package April_10_23_IO_Operation;
 import java.io.*;
 
 //Transient selective serialization
-class Cricketer2 {
+class Cricketer2 implements Serializable
+{
     private String name;
     private int age;
     transient private int runs;   //This data member of a class will not get serialized because of 'transient' keyword
