@@ -18,14 +18,16 @@ public class WaveTraversal_2DArray {
             if(j % 2 == 0)
             {
                 for (int i = 0; i < arr.length; i++) {
-                    System.out.println(arr[i][j]);
+                    System.out.print(arr[i][j]+" ");
                 }
+                System.out.println();
             }
             else
             {
                 for (int i = arr.length-1; i >= 0; i--) {
-                    System.out.println(arr[i][j]);
+                    System.out.print(arr[i][j]+" ");
                 }
+                System.out.println();
             }
         }
     }
