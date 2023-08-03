@@ -32,6 +32,7 @@ public class Generics_InJava {
         als.add("Only Strings");
         als.add("are allowed");
         als.add("Integers are not allowed");
+        
         //als.add(50);      //Compile Time Error: After using Generics showing error for another type of data
         String str = als.get(0);
         String str1 = als.get(1);

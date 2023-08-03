@@ -85,7 +85,6 @@ public class Patterns_Assignment_Alphabets {
                     System.out.print("  ");
                 }
             }
-            
             System.out.println();
         }
     }

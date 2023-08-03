@@ -46,9 +46,9 @@ class empire {
         player p1 = new player();
         player p2 = new player();
         player p3 = new player();
-        numFromPlayer1 = p1.pguessNum;
-        numFromPlayer2 = p2.pguessNum;
-        numFromPlayer3 = p3.pguessNum;
+        numFromPlayer1 = p1.guessNumber();
+        numFromPlayer2 = p2.guessNumber();
+        numFromPlayer3 = p3.guessNumber();
     }
 
     void Compare() {
@@ -80,7 +80,8 @@ public class LaunchGame {
     public static void main(String[] args) {
         empire u = new empire();
         u.collectNumFromGuesser();
-        u.collectNumFromGuesser();
+        u.collectNumFromPlayers();
+       // u.collectNumFromGuesser();
         u.Compare();
     }
 }

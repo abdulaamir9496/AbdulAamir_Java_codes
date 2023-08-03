@@ -18,6 +18,7 @@ public class MoreOnArrayList {
 
         //contains (returns true or false)
         System.out.println(al1.contains(200));
+        
 
         //indexof
         /*int index = al1.indexOf(300);

@@ -4,12 +4,12 @@ public class NestedLoop_Pattern_Programming {
     public static void main(String[] args) {
 
         //Example 1: Nested Loop Pattern Programming
-        for (int i = 0; i < 4; i++) {
+        /*for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 4; j++) {
                 System.out.print("*\t");
             }
             System.out.println();
-        }
+        }*/
 
         //Example 2: Nested Loop Pattern Programming
         /*int n = 5;
@@ -103,26 +103,26 @@ public class NestedLoop_Pattern_Programming {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 if (i == 0 || j == 0 ||  i == (n-1)/2) {
-                    System.out.print("*\t");
+                    System.out.print("* ");
                 } else {
-                    System.out.print("\t");
+                    System.out.print(" ");
                 }
             }
             System.out.println();
         }*/
 
-        //Example 5: Print 'A' within half Pattern using Logical OR (||) Operator & n-1 method
-        /*int n = 5;
+        //Example 5: Print 'A' within half-Pattern using Logical OR (||) Operator & n-1 method
+        int n = 7;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 if (i == 0 && j > 0 && j < (n-1)/2 || j == 0 && i > 0 || i == (n-1)/2 && j <= (n-1)/2 || j == (n-1)/2 && i > 0) {
-                    System.out.print("*\t");
+                    System.out.print("* ");
                 } else {
-                    System.out.print("\t");
+                    System.out.print(" ");
                 }
             }
             System.out.println();
-        }*/
+        }
 
         //Example 5: Print 'D' within half Pattern using Logical OR (||) Operator & n-1 method
         /*int n = 8;
