@@ -21,7 +21,7 @@ public class BinarySearch {
                 high = mid - 1;
             }
         }
-        return 0;
+        return -1;
     }
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
@@ -39,10 +39,10 @@ public class BinarySearch {
         
         //target element from the user
         System.out.println("Enter the target element: ");
-        int x = scn.nextInt();
+        int target = scn.nextInt();
         
         //Function calling of binary search
-        int result = binarySearch(arr, x);
+        int result = binarySearch(arr, target);
         
         if(result == -1)
         {
