@@ -5,7 +5,7 @@ public class IntroductionToRecursion {
     {
         int result = 0;
         //Base case condition
-        if(n == 0 || n == 1)
+        if(n == 0 || n == 1) 
         {
             return 1;
         }
