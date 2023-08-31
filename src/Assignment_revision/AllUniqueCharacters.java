@@ -20,7 +20,7 @@ public class AllUniqueCharacters {
 
     public static void main(String[] args) {
         String str = "xyz";
-//        String str = "xyyz";
+        //String str = "xyyz";
         System.out.println("Original String : " + str);
         System.out.println("String has all unique characters: " + is_Unique_str(str));
     }
@@ -68,7 +68,7 @@ public class AllUniqueCharacters {
                 if (str.charAt(i) == str.charAt(j))
                     flags = false;
 
-        // If no duplicate characters encountered,
+        // If no duplicate characters are encountered,
         // return true
         flags = true;
 
