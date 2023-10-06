@@ -1,7 +1,7 @@
 package May_22_23_HashMap_Stack_and_Queue;
 import java.util.HashMap;
 import java.util.Scanner;
-public class First_NonReapeating_Character_In_A_String {
+public class First_NonRepeating_Character_In_A_String {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter the String: ");
